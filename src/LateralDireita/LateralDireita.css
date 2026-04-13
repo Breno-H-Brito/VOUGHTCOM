@@ -1,0 +1,159 @@
+.LateralDireita {
+    padding: 2rem 2rem;
+    max-width: 500px;
+    color: #ffffff;
+}
+
+
+.perfilUsuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.perfilInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fotoPerfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nomeUsuario {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.nomeCompleto {
+    font-size: 14px;
+    color: #737373;
+    margin: 0;
+}
+
+.btnMudar {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnMudar:hover {
+    color: #00376b;
+}
+
+/* Sugestões */
+.sugestoes {
+    margin-bottom: 2rem;
+}
+
+.sugestoesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sugestoesTitulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    margin: 0;
+}
+
+.btnVerTudo {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnVerTudo:hover {
+    color: #737373;
+}
+
+/* Item de sugestão */
+.sugestaoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sugestaoInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fotoSugestao {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.textoSugestao {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.usernameSugestao {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.descricaoSugestao {
+    font-size: 12px;
+    color: #737373;
+    margin: 0;
+}
+
+.btnSeguir {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnSeguir:hover {
+    color: #00376b;
+}
+
+/* Footer */
+.footerDireita {
+    margin-top: 2rem;
+}
+
+.linksFooter {
+    font-size: 11px;
+    color: #c7c7c7;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #c7c7c7;
+    margin: 0;
+}
