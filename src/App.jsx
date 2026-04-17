@@ -2,6 +2,9 @@
 // Vite + React
 import { useState } from 'react'
 
+// Importação de componentes, imagens e estilos
+import MiniChat from "./components/MiniChat";
+
 // Imagens
 // var nomeDaImagem = 'hero.png'
 import reactLogo from './assets/react.svg'
@@ -18,19 +21,24 @@ import LateralEsquerda from './LateralEsquerda/LateralEsquerda'
 import LateralDireita from './LateralDireita/LateralDireita'
 import Principal from './Principal/Principal'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       
+      <MiniChat />
+
       <LateralEsquerda />
 
       <Principal />
 
       <LateralDireita />
 
+
     </div>
+
   )
 }
 

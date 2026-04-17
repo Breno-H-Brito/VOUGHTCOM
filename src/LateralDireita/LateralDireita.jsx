@@ -9,7 +9,6 @@ import the_deep from '../assets/deep.jpg'
 
 
 
-
 export default function LateralDireita() {
     return (
         <div className='LateralDireita'>
